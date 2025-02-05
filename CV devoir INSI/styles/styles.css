@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+.donnees{
+    display: flex;
+
+    .name{
+        clip-path: polygon( 0% 0%,100% 0%,100% 0%,75% 100%,0% 100%);
+        background-color: rgb(45, 45, 136);
+        flex: 1;
+        height: 180px;
+        align-content: center;
+        padding: 0 0 0 4rem;
+        p{
+            color: rgb(228, 227, 227);
+            font-size: 30px;
+            font-weight: 400;
+        }
+    }
+    
+    .photo{
+        flex: 0.6;
+        
+        div{
+            background-color: black;
+            text-align: center;
+            clip-path: polygon(40% 0%,100% 0%,100% 100%,0% 100%,0% 100%);
+            width: 100%;
+            height: 100%;
+            img{
+                background-color: black;
+                height: 178px;
+            }
+        }
+    }
+}
+
+.titre{
+    background-color:rgb(230, 230, 230);
+    width: 65%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 0.25rem 0 0.25rem 4rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1rem;
+}
+
+.text{
+    padding: 0.25rem 0 0 4rem;
+    font-size: 18px;
+    color: rgb(230, 230, 230);
+}
+
+.link{
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    padding-left: 4rem;
+    font-size: 25px;
+}
+
+.link:hover{
+    color: rgb(13, 194, 13);
+    text-decoration: underline;
+}
+
+.box-link{
+    height: 40px;
+    /* background-color: red; */
+    align-content: end;
+}
+
+.details{
+    padding-top: 2rem;
+    
+    
+    display: flex;
+    
+    .cote-gauche{
+        background-color:rgb(45, 45, 136);
+        padding-bottom: 3rem;
+        flex: 1;
+    }
+
+    .cote-droit{
+        flex: 0.58;
+        background-color: white;
+        padding-left: 4rem;
+
+        .contact{
+            /* text-align: center; */
+        }
+
+        .titre-contact{
+            margin-bottom: .5rem;
+            font-size: 32px;
+            font-weight: 300;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: capitalize;
+            height: 80px;   
+            /* text-align: center; */
+            align-content: end;
+            /* background-color: red; */
+        }
+
+        .text-2{
+            font-size: 25px;
+            
+            span{
+                /* background-color: rebeccapurple; */
+                padding:  0 1rem;
+            }
+        }
+
+        .div{
+            text-align: start;
+            /* background-color: red; */
+            padding-left: 6.5rem;
+
+            .text-3{
+                font-size: 20px;
+                padding: 0.5rem;
+                a{
+                    color: black;
+                    text-decoration: none;
+                    span{
+                        padding: 0 1rem;
+                    }   
+                }
+
+                a:hover{
+                    color: blue;
+                }
+            }
+        }
+
+
+    }
+}
+
+.skills{
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+    .div1{
+        /* background-color: red; */
+        /* flex: 1; */
+        border-radius: 50%;
+        align-content: center;
+        div{
+            text-align: center;
+            align-content: center;
+            /* color: white; */
+            border: solid 10px black ;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.language{
+    h5{
+        font-size: 20px;
+        text-align: center;
+    }   
+
+    div{
+        background: black;
+        width: 250px;
+        .temp{
+            height: 5px;
+            width: 75%;
+            background-color: red;
+        }
+    }
+}
